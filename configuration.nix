@@ -12,14 +12,16 @@
     ./modules/locale.nix
     ./modules/nvidia.nix
     ./modules/desktop.nix
-    ./modules/hyprland.nix   # ← Hyprland + Waybar (pick at login alongside COSMIC)
     ./modules/audio.nix
+    ./modules/nushell.nix
     ./modules/docker.nix
     ./modules/services.nix
     ./modules/gaming.nix
     ./modules/jellyfin.nix
-    ./modules/star-citizen.nix 
     ./modules/packages.nix
+    ./modules/star-citizen.nix
+    ./modules/ssh.nix       # ← new
+    ./modules/sops.nix      # ← new
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

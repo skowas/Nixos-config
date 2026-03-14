@@ -74,6 +74,7 @@
     cliphist
     p7zip
     neofetch
+    sops
     bazaar
     # =========================
     # Optional / Advanced

@@ -4,7 +4,7 @@
     isNormalUser = true;
     description = "Sko";
     uid = 1000;
-    shell = pkgs.bash;
+    shell = pkgs.nushell;
     group = "sko";
     extraGroups = [ "networkmanager" "docker" "wheel" "disk" "video" "render" "storage" ];
   };
