@@ -1,0 +1,6 @@
+# Nix build results
+result
+result-*
+
+# hardware-configuration.nix is machine-specific — exclude or keep, your choice
+# hardware-configuration.nix
