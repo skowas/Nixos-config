@@ -20,12 +20,21 @@
     ./modules/jellyfin.nix
     ./modules/packages.nix
     ./modules/star-citizen.nix
+    ./modules/hyprland.nix
     ./modules/ssh.nix       # ← new
     ./modules/sops.nix      # ← new
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   nixpkgs.config.allowUnfree = true;
+
+  # Garbage collect automatically every week
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 30d";
+  };
+  nix.settings.auto-optimise-store = true;
 
   system.stateVersion = "25.11";
 }

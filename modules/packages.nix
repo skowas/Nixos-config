@@ -35,7 +35,9 @@
     zellij
     gitui
     yazi
+    lazydocker
     kitty
+    wiki-tui
     kitty-img
     kitty-themes
     wiremix    
@@ -46,7 +48,7 @@
     mangohud
     protonup-ng
     lutris
-
+  
     # =========================
     # Docker & System
     # =========================
@@ -56,7 +58,7 @@
     polkit_gnome
     ntfs3g
     exfat
-
+    
     # =========================
     # Media & Apps
     # =========================
@@ -74,6 +76,8 @@
     cliphist
     p7zip
     neofetch
+    wiki-tui
+    wiki-tui
     sops
     bazaar
     # =========================
@@ -87,6 +91,7 @@
     mprocs
     mask
     cargo-info
+    wiki-tui
     bacon
     evil-helix
   ];
