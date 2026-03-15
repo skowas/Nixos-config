@@ -77,7 +77,6 @@
     p7zip
     neofetch
     wiki-tui
-    wiki-tui
     sops
     bazaar
     # =========================
@@ -91,8 +90,24 @@
     mprocs
     mask
     cargo-info
-    wiki-tui
     bacon
     evil-helix
+
+
+
+  (pkgs.buildGoModule rec {
+    pname = "surge";
+    version = "0.7.0";
+    src = pkgs.fetchFromGitHub {
+      owner = "surge-downloader";
+      repo = "surge";
+      rev = "v${version}";
+      hash = "sha256-0rgD9tMt3P/Bme39WleIdQQFOzU1RlG8H43bVNjkC50=";
+    };
+    vendorHash = "sha256-XIXH/d4Fjk3KFFQn+MfRGiAgR48KGvWoh1PuNb3yryg=";
+  doCheck = false;
+  })
+
+
   ];
 }
