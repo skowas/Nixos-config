@@ -66,9 +66,12 @@
     obsidian
     mpc
     mpd
+    ffmpeg   
     rmpc
     jellyfin-media-player
-
+    spotdl
+    spotify-recorder   
+   
     # =========================
     # Utilities
     # =========================
