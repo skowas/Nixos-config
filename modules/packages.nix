@@ -70,7 +70,8 @@
     rmpc
     jellyfin-media-player
     spotdl
-       
+    ncspot 
+    librespot   
    
     # =========================
     # Utilities
