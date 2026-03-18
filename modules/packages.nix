@@ -71,8 +71,9 @@
     jellyfin-media-player
     spotdl
     ncspot 
-    librespot   
-   
+    librespot  
+    youtube-tui
+    
     # =========================
     # Utilities
     # =========================
@@ -83,6 +84,9 @@
     wiki-tui
     sops
     bazaar
+    bluetui
+    tdf
+    
     # =========================
     # Optional / Advanced
     # (Keep only if needed)
