@@ -3,7 +3,9 @@
 {
   imports = [
     ./hardware-configuration.nix
-
+      
+      
+    ./modules/cloudflared-delay.nix
     ./modules/bluetooth.nix
     ./modules/filesystems.nix
     ./modules/users.nix

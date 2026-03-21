@@ -47,7 +47,8 @@
     # =========================
     mangohud
     protonup-ng
-    lutris
+    
+
   
     # =========================
     # Docker & System
@@ -58,6 +59,7 @@
     polkit_gnome
     ntfs3g
     exfat
+
     
     # =========================
     # Media & Apps
@@ -73,6 +75,7 @@
     ncspot 
     librespot  
     youtube-tui
+
     
     # =========================
     # Utilities
@@ -81,12 +84,16 @@
     cliphist
     p7zip
     neofetch
-    wiki-tui
+    fastfetch
     sops
     bazaar
     bluetui
     tdf
-    
+    inetutils
+    zssh   
+    fast-ssh 
+    ircdog
+
     # =========================
     # Optional / Advanced
     # (Keep only if needed)
