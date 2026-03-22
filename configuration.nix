@@ -3,7 +3,8 @@
 {
   imports = [
     ./hardware-configuration.nix
-      
+    
+    ./modules/ollama.nix
     ./modules/kde.nix 
     ./modules/cloudflared-delay.nix
     ./modules/bluetooth.nix
@@ -19,7 +20,8 @@
     ./modules/docker.nix
     ./modules/services.nix
     ./modules/gaming.nix
-    ./modules/jellyfin.nix
+    ./modules/twintaillauncher.nix 
+    ./modules/jellyfin.nix   
     ./modules/packages.nix
     ./modules/star-citizen.nix
     ./modules/hyprland.nix
