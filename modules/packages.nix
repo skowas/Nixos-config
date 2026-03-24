@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   environment.systemPackages = with pkgs; [
@@ -24,7 +24,7 @@
     dua
     rustc
     rustup
-    
+
     # Shells
     fish
     nushell
@@ -40,16 +40,14 @@
     wiki-tui
     kitty-img
     kitty-themes
-    wiremix    
+    wiremix
 
     # =========================
     # Gaming & Tools
     # =========================
     mangohud
     protonup-ng
-    
 
-  
     # =========================
     # Docker & System
     # =========================
@@ -60,7 +58,6 @@
     ntfs3g
     exfat
 
-    
     # =========================
     # Media & Apps
     # =========================
@@ -68,15 +65,14 @@
     obsidian
     mpc
     mpd
-    ffmpeg   
+    ffmpeg
     rmpc
     jellyfin-media-player
     spotdl
-    ncspot 
-    librespot  
+    ncspot
+    librespot
     youtube-tui
 
-    
     # =========================
     # Utilities
     # =========================
@@ -90,13 +86,12 @@
     bluetui
     tdf
     inetutils
-    zssh   
-    fast-ssh 
+    zssh
+    fast-ssh
     ircdog
 
     # =========================
     # Optional / Advanced
-    # (Keep only if needed)
     # =========================
     espanso-wayland
     jetbrains-toolbox
@@ -108,20 +103,28 @@
     bacon
     evil-helix
 
+    # =========================
+    # Fonts
+    # =========================
+    pkgs.nerd-fonts.jetbrains-mono
 
+    # =========================
+    # Custom packages
+    # =========================
+    (pkgs.buildGoModule rec {
+      pname = "surge";
+      version = "0.7.0";
+      src = pkgs.fetchFromGitHub {
+        owner = "surge-downloader";
+        repo = "surge";
+        rev = "v${version}";
+        hash = "sha256-0rgD9tMt3P/Bme39WleIdQQFOzU1RlG8H43bVNjkC50=";
+      };
+      vendorHash = "sha256-XIXH/d4Fjk3KFFQn+MfRGiAgR48KGvWoh1PuNb3yryg=";
+      doCheck = false;
+    })
 
-  (pkgs.buildGoModule rec {
-    pname = "surge";
-    version = "0.7.0";
-    src = pkgs.fetchFromGitHub {
-      owner = "surge-downloader";
-      repo = "surge";
-      rev = "v${version}";
-      hash = "sha256-0rgD9tMt3P/Bme39WleIdQQFOzU1RlG8H43bVNjkC50=";
-    };
-    vendorHash = "sha256-XIXH/d4Fjk3KFFQn+MfRGiAgR48KGvWoh1PuNb3yryg=";
-  doCheck = false;
-  })
+    inputs.twintail-launcher.packages.${pkgs.system}.default
 
   ];
 }
