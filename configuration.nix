@@ -4,6 +4,13 @@
   imports = [
     ./hardware-configuration.nix
     
+    
+    
+    
+    
+    
+    ./modules/i2pd.nix
+    ./modules/hyphanet.nix
     ./modules/ollama.nix
     ./modules/kde.nix 
     ./modules/cloudflared-delay.nix
