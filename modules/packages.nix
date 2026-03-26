@@ -24,7 +24,7 @@
     dua
     rustc
     rustup
-
+    r2modman
     # Shells
     fish
     nushell
