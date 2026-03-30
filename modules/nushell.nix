@@ -10,6 +10,9 @@
     # ── Hide banner ───────────────────────────────────
     $env.config = { show_banner: false }
 
+    # ── PATH ──────────────────────────────────────────
+    $env.PATH = ($env.PATH | prepend "/home/sko/bin")
+
     # ── CLI replacements ──────────────────────────────
     alias ls   = eza --icons
     alias ll   = eza --icons -l
