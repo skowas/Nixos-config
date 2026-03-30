@@ -89,7 +89,8 @@
     zssh
     fast-ssh
     ircdog
-
+    python315 
+    pipx
     # =========================
     # Optional / Advanced
     # =========================
