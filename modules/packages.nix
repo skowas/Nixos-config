@@ -25,6 +25,8 @@
     rustc
     rustup
     r2modman
+    deno    
+
     # Shells
     fish
     nushell
@@ -72,7 +74,10 @@
     ncspot
     librespot
     youtube-tui
-
+    python313Packages.yt-dlp-ejs
+    yt-dlp  
+      
+  
     # =========================
     # Utilities
     # =========================
