@@ -96,7 +96,10 @@
     ircdog
     python315 
     pipx
-    # =========================
+    qmk
+    qmk-udev-rules
+
+        # =========================
     # Optional / Advanced
     # =========================
     espanso-wayland
