@@ -84,7 +84,6 @@
     wl-clipboard
     cliphist
     p7zip
-    neofetch
     fastfetch
     sops
     bazaar
