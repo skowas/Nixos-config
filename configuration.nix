@@ -27,7 +27,7 @@
     ./modules/docker.nix
     ./modules/services.nix
     ./modules/gaming.nix
-    ./modules/twintaillauncher.nix 
+    ./modules/twintaillauncher.nix
     ./modules/jellyfin.nix   
     ./modules/packages.nix
     ./modules/star-citizen.nix

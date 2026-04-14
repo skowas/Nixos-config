@@ -109,6 +109,7 @@
     mask
     cargo-info
     bacon
+    resilio-sync
     evil-helix
 
     # =========================
