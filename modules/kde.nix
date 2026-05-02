@@ -16,7 +16,7 @@
     kdePackages.kate
     kdePackages.dolphin
     kdePackages.konsole
-
+    kdePackages.plasma-nm
     # KDE Utilities
     kdePackages.discover
     kdePackages.kcalc

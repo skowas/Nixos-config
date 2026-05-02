@@ -27,7 +27,7 @@
     waybar   # launched by hyprland.conf via exec-once, not system-wide
     # Launcher
     rofi
-
+   awww
     # Notifications
     mako
     libnotify

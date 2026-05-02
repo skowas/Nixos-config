@@ -7,7 +7,7 @@
     # Development & CLI
     # =========================
     git
-    vencord
+    #vencord
     wget
     neovim
     ripgrep
@@ -76,7 +76,7 @@
     youtube-tui
     python313Packages.yt-dlp-ejs
     yt-dlp  
-      
+    playerctl  
   
     # =========================
     # Utilities
