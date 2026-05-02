@@ -7,7 +7,7 @@
     # Development & CLI
     # =========================
     git
-    #vencord
+    vencord
     wget
     neovim
     ripgrep
@@ -21,11 +21,13 @@
     ripgrep-all
     just
     dust
+    mold
     dua
     rustc
+    nil
     rustup
     r2modman
-    deno    
+    deno
 
     # Shells
     fish
@@ -74,10 +76,9 @@
     ncspot
     librespot
     youtube-tui
-    python313Packages.yt-dlp-ejs
-    yt-dlp  
-    playerctl  
-  
+
+    playerctl
+
     # =========================
     # Utilities
     # =========================
@@ -93,7 +94,7 @@
     zssh
     fast-ssh
     ircdog
-    python315 
+    python315
     pipx
     qmk
     qmk-udev-rules
