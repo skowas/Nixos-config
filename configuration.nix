@@ -2,6 +2,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ./modules/podman.nix
     ./modules/i2pd.nix
     ./modules/hyphanet.nix
     ./modules/ollama.nix

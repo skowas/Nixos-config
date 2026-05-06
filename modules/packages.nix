@@ -26,6 +26,7 @@
     rustc
     gearlever
     nil
+    freerdp
     rustup
     r2modman
     deno
