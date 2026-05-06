@@ -18,6 +18,7 @@
     xh
     hyperfine
     delta
+    fetchtastic
     ripgrep-all
     just
     dust
@@ -103,6 +104,7 @@
     qpdf
     exiftool
     pdfcrack
+    contact
         # =========================
     # Optional / Advanced
     # =========================
