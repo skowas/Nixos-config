@@ -24,6 +24,7 @@
     mold
     dua
     rustc
+    gearlever
     nil
     rustup
     r2modman
@@ -98,7 +99,9 @@
     pipx
     qmk
     qmk-udev-rules
-
+    qpdf
+    exiftool
+    pdfcrack
         # =========================
     # Optional / Advanced
     # =========================
